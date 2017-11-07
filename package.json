@@ -1,0 +1,23 @@
+{
+  "name": "wepy-com-cli",
+  "version": "1.0.0",
+  "description": "wepy组件导入工具",
+  "main": "index.js",
+  "repository": "git@github.com:excaliburhan/wepy-com-cli.git",
+  "author": "xiaoping <edwardhjp@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "wepycom": "bin/wepy-com.js",
+    "wepycom-ls": "bin/wepy-com-list.js",
+    "wepycom-add": "bin/wepy-com-add.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0",
+    "download-git-repo": "^1.0.1",
+    "inquirer": "^3.3.0",
+    "ora": "^1.3.0",
+    "request": "^2.83.0",
+    "rimraf": "^2.6.2"
+  }
+}
