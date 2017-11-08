@@ -7,7 +7,6 @@ var chalk = require('chalk')
 var ora = require('ora')
 var path = require('path')
 var exists = require('fs').existsSync
-var exec = require('child_process').exec
 var rm = require('rimraf').sync
 var rmFile = require('../lib/file').rmFile
 var wepyConfig = require('../appConfig') // 配置文件

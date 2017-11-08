@@ -25,6 +25,11 @@ request({
   var requestBody = JSON.parse(body)
   if (Array.isArray(requestBody)) {
     console.log()
+    console.log(
+      '  ' + chalk.yellow('◆') +
+      '  ' + chalk.cyan('组件源：https://github.com/' + wepyConfig.user)
+    )
+    console.log()
     console.log('  现有组件列表:')
     console.log()
     requestBody.forEach(function (repo) {
